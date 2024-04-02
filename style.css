@@ -277,7 +277,6 @@ body{
 .container .tab-content .comments .comment p{
     font-size: 13px;
 }
-
 .container .tab-content .comments .comment img{
     width: 48px;
     aspect-ratio: 1/1;
@@ -290,7 +289,7 @@ body{
     color: #fff;
     padding: 10px 16px;
     border-radius: 8px;
-    width: 100%;
+    width: 416px;
     border: none;
     cursor: pointer;
     font-size: 15px;
@@ -301,3 +300,11 @@ body{
 .container button:hover{
     background-color: #304ffe;
 }
+
+.galka{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+
