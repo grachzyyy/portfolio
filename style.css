@@ -159,7 +159,7 @@ body{
 .container .tabs-container{
     overflow-x: auto;
     margin-bottom: 4px;
-    width: 100%;
+    width: 337px;
 }
 
 .container .tabs-container .tabs{
@@ -253,11 +253,14 @@ body{
     color: #7e57c2;
 }
 
-.container .tab-content .comments{
+.container .tab-content .comments,
+.container .tab-content .projects{
     margin-top: 16px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container .tab-content .comments .comment{
@@ -305,6 +308,53 @@ body{
     height: 1.5rem;
     width: 1.5rem;
 }
+
+.container .projects .project1 img{
+    height: 90px;
+    width: 130px;
+    display: block;
+    margin: auto;
+}
+
+.container .tab-content .projects .project1{
+    width: 200px;
+    height: 110px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 8px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.container .tab-content .projects a{
+    width: 200px;
+    height: 110px;
+}
+
+.container .tab-content .projects .project2{
+    width: 200px;
+    height: 110px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 8px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.container .projects .project2 img{
+    width: 50px;
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
 
 
 
