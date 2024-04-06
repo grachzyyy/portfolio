@@ -8,7 +8,9 @@
     font-family: 'Manrope', sans-serif;
 }
 
-
+*{
+    -webkit-tap-highlight-color: transparent;
+  }
 
 *::-webkit-scrollbar{
     width: 8px;
