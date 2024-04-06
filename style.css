@@ -311,7 +311,7 @@ body{
 }
 
 .container .tab-content .projects{
-margin-left: 12px;
+padding-left: 14px;
 }
 
 .container .tab-content .projects .projects-block .project1 img{
@@ -392,4 +392,12 @@ margin-left: 12px;
 .container .tab-content .projects .projects-block2 .project3:hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);;
 }
+
+
+
+
+
+
+
+
 
