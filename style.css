@@ -157,7 +157,7 @@ body{
 .container .tabs-container{
     overflow-x: auto;
     margin-bottom: 4px;
-    width: 337px;
+    width: 225px;
 }
 
 .container .tabs-container .tabs{
@@ -310,6 +310,10 @@ body{
     width: 1.5rem;
 }
 
+.container .tab-content .projects{
+margin-left: 12px;
+}
+
 .container .tab-content .projects .projects-block .project1 img{
     height: 90px;
     width: 130px;
@@ -317,7 +321,14 @@ body{
     margin: auto;
 }
 
-.container .tab-content .projects  .projects-block .project1{
+.container .tab-content .projects .projects-block{
+    width: 200px;
+    height: 110px;
+    display: flex;
+    gap: 20px;
+}
+.container .tab-content .projects .projects-block .project1,
+.container .tab-content .projects  .projects-block .project2{
     width: 180px;
     height: 110px;
     display: flex;
@@ -327,20 +338,6 @@ body{
     background: #fafafa;
     border: 1px solid #eee;
     border-radius: 8px;
-}
-
-.container .tab-content .projects .projects-block{
-    width: 200px;
-    height: 110px;
-}
-
-.container .tab-content .projects .projects-block{
-    display: flex;
-    gap: 20px;
-}
-
-.container .tab-content .projects .projects-block .project1,
-.container .tab-content .projects  .projects-block .project2{
     cursor: pointer;
     box-shadow: none;
     transition: all 0.3s ease;
@@ -349,18 +346,6 @@ body{
 .container .tab-content .projects .projects-block .project1:hover,
 .container .tab-content .projects .projects-block .project2:hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);;
-}
-
-.container .tab-content .projects  .projects-block .project2{
-    width: 180px;
-    height: 110px;
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    padding: 8px;
-    background: #fafafa;
-    border: 1px solid #eee;
-    border-radius: 8px;
 }
 
 .container .projects .projects-block .project2 img{
@@ -373,9 +358,6 @@ body{
 .container .projects .projects-block2{
     width: 200px;
     height: 110px;
-}
-
-.container .tab-content .projects .projects-block2{
     display: flex;
     gap: 20px;
 }
@@ -390,6 +372,9 @@ body{
     background: #fafafa;
     border: 1px solid #eee;
     border-radius: 8px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: all 0.3s ease;
 }
 
 .container .projects .projects-block2 .project3 a{
@@ -404,21 +389,7 @@ body{
     
 }
 
-.container .tab-content .projects .projects-block2 .project3{
-    cursor: pointer;
-    box-shadow: none;
-    transition: all 0.3s ease;
-}
-
 .container .tab-content .projects .projects-block2 .project3:hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);;
 }
-
-
-
-
-
-
-
-
 
